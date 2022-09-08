@@ -30,9 +30,9 @@ public class Browsertesting {
         String Title_edg = driveredg.getTitle();
         String Title_fox = driverfire.getTitle();
 
-        System.out.println("Page Title:" +Title);
-        System.out.println("Page Title:" +Title_edg);
-        System.out.println("Page Title:" +Title_fox);
+        System.out.println("Page Title (Chrome):" +Title);
+        System.out.println("Page Title (Edge):" +Title_edg);
+        System.out.println("Page Title (Firefox):" +Title_fox);
 
 
     }
